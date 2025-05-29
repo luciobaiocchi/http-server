@@ -1,91 +1,57 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>Contatti - MyMinimalSite</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Python Web Server</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">MyMinimalSite</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="gallery.html">Galleria</a></li>
-          <li class="nav-item"><a class="nav-link active" href="contact.html">Contatti</a></li>
-        </ul>
-      </div>
-    </div>
+<body class="bg-gray-100 text-gray-800">
+
+  <nav class="bg-blue-700 text-white px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">PythonWebServer</h1>
+    <ul class="flex gap-6 text-sm font-medium">
+      <li><a href="index.html" class="hover:underline">Home</a></li>
+      <li><a href="about.html" class="hover:underline">About</a></li>
+      <li><a href="gallery.html" class="hover:underline">Gallery</a></li>
+      <li><a href="contact.html" class="underline font-semibold">Contact</a></li>
+    </ul>
   </nav>
 
-  <main class="container py-5 mt-5">
-    <h1>Contattami</h1>
-    <p>Per domande o feedback, compila il form sottostante o usa i recapiti:</p>
-    <ul class="list-unstyled">
-      <li><strong>Email:</strong> <a href="mailto:lucio.baiocchi@example.com">
- Relazione tecnica estesa (`relazione_tecnica.md`)
+  <main class="max-w-3xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-6 text-center">Contact Us</h2>
 
-Relazione tecnica estesa (`relazione_tecnica.md`)
+    <div class="bg-white p-6 rounded shadow mb-12">
+      <form action="#" method="POST" class="space-y-4">
+        <div>
+          <label class="block font-medium mb-1">Name</label>
+          <input type="text" name="name" required class="w-full border border-gray-300 rounded px-4 py-2" />
+        </div>
+        <div>
+          <label class="block font-medium mb-1">Email</label>
+          <input type="email" name="email" required class="w-full border border-gray-300 rounded px-4 py-2" />
+        </div>
+        <div>
+          <label class="block font-medium mb-1">Subject</label>
+          <input type="text" name="subject" required class="w-full border border-gray-300 rounded px-4 py-2" />
+        </div>
+        <div>
+          <label class="block font-medium mb-1">Message</label>
+          <textarea name="message" rows="5" required class="w-full border border-gray-300 rounded px-4 py-2"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-700 text-white px-6 py-2 rounded hover:bg-blue-800 transition">Send</button>
+      </form>
+    </div>
 
-```markdown
-# Relazione Tecnica
+    <div class="text-center">
+      <p><strong>Email:</strong> info@pythonwebserver.local</p>
+      <p><strong>LinkedIn:</strong> <a href="#" class="text-blue-700 hover:underline">Lucio Baiocchi</a></p>
+    </div>
+  </main>
 
-## 1. Introduzione
-L’obiettivo del progetto è stato realizzare un server HTTP minimale in Python che fornisse contenuti statici ottimizzati, con gestione avanzata dei MIME types, logging delle richieste, un’interfaccia responsiva e animazioni CSS leggere.
+  <footer class="bg-blue-700 text-white text-center py-6 mt-12">
+    &copy; 2025 PythonWebServer
+  </footer>
 
-## 2. Scelte progettuali
-- **Linguaggio**: Python 3, per semplicità e rapidità di prototipazione.
-- **Sockets**: utilizzo di `socket.socket` per la comunicazione TCP a basso livello.
-- **Multithreading**: thread daemon per gestire richieste concorrenti senza blocchi.
-- **Logging**: modulo `logging` con scrittura su file per analisi posteriore.
-
-## 3. Gestione MIME Types
-Il server utilizza `mimetypes.guess_type` per associare le estensioni a `Content-Type`. Sono supportate nativamente estensioni comuni:
-- Testo: `.html`, `.css`, `.js`, `.json`, `.txt`
-- Immagini: `.jpg`, `.jpeg`, `.png`, `.gif`, `.svg`
-- Font: `.woff`, `.woff2`, `.ttf`
-- Altro: `.pdf`, `.zip`, `.xml`
-
-## 4. Logging delle richieste
-Le operazioni di logging includono:
-- Timestamp ISO 8601.
-- Livello (INFO, WARNING, ERROR).
-- Dettagli di richiesta (client, metodo, path).
-- Codice di risposta e MIME type.
-Queste informazioni sono utili per debugging, metriche di utilizzo e monitoraggio.
-
-## 5. Design responsivo e animazioni CSS
-- **Layout a griglia**: uso di CSS Grid con `auto-fit` e `minmax` per adattamento fluido.
-- **Animazioni**: fade-in per contenuti e slide-in per l’header.
-- **Transizioni**: hover sui link e card con trasformazioni leggere.
-- **Responsive breakpoints**: adattamento per mobile (<768px) e tablet.
-
-## 6. Testing e validazione
-- Controllo manuale su Chrome, Firefox e Edge.
-- Validazione HTML/CSS con W3C Validator.
-- Test di concorrenza con `ab` (ApacheBench), 100 richieste concorrenti: latenza media <50ms su ambiente locale.
-
-## 7. Performance e ottimizzazioni
-- **Keep-Alive**: in futuro, abilitare `Connection: keep-alive` per ridurre overhead TCP.
-- **Caching**: aggiungere header `Cache-Control` per risorse statiche.
-- **Minificazione**: ridurre dimensione CSS/JS.
-
-## 8. Sicurezza e limitazioni
-- **Directory traversal**: sanitizzazione di `path` con `lstrip('/')` e `os.path.isfile`.
-- **Metodi supportati**: solo GET; POST e altri metodi ignorati.
-- **SSL/TLS**: non implementato; consigliato `stunnel` o `nginx` in front-end per HTTPS.
-
-## 9. Possibili estensioni future
-- Gestione POST e API REST.
-- Autenticazione di base (HTTP Basic Auth).
-- Monitoraggio in tempo reale (WebSocket).
-- Interfaccia di amministrazione per log.
-
-## 10. Conclusioni
-Il server soddisfa i requisiti di base e le estensioni richieste. Grazie alla struttura modulare, è immediato aggiungere nuove funzionalità (caching, HTTPS, API).
+</body>
+</html>

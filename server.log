@@ -809,3 +809,117 @@
 2025-05-29 17:40:54 - INFO - 200 OK: /javascript/script.js (text/javascript)
 2025-05-29 17:40:54 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
 2025-05-29 17:40:55 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 18:02:03 - INFO - Server avviato su 127.0.0.1:8080
+2025-05-29 18:02:05 - INFO - Richiesta da ('127.0.0.1', 53315): GET /about.html
+2025-05-29 18:02:05 - INFO - 200 OK: /about.html (text/html)
+2025-05-29 18:02:07 - INFO - Richiesta da ('127.0.0.1', 53316): GET /index.html
+2025-05-29 18:02:07 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 18:02:25 - INFO - Server avviato su 127.0.0.1:8080
+2025-05-29 18:02:26 - INFO - Richiesta da ('127.0.0.1', 53330): GET /index.html
+2025-05-29 18:02:26 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 18:02:54 - INFO - Server avviato su 127.0.0.1:8080
+2025-05-29 18:02:54 - INFO - Richiesta da ('127.0.0.1', 53348): GET /index.html
+2025-05-29 18:02:54 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 18:03:04 - INFO - Richiesta da ('127.0.0.1', 53349): GET /index.html
+2025-05-29 18:03:04 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 18:04:43 - INFO - Richiesta da ('127.0.0.1', 53356): GET /index.html
+2025-05-29 18:04:43 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 18:06:04 - INFO - Richiesta da ('127.0.0.1', 53367): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:06:04 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:11:51 - INFO - Richiesta da ('127.0.0.1', 54870): GET /index.html
+2025-05-29 18:11:51 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 18:11:52 - INFO - Richiesta da ('127.0.0.1', 54871): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:11:52 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:11:54 - INFO - Richiesta da ('127.0.0.1', 54882): GET /favicon.ico
+2025-05-29 18:11:54 - WARNING - 404 Not Found: /favicon.ico
+2025-05-29 18:12:00 - INFO - Richiesta da ('127.0.0.1', 54911): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:00 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:00 - INFO - Richiesta da ('127.0.0.1', 54912): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:00 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:05 - INFO - Richiesta da ('127.0.0.1', 54937): GET /about.html
+2025-05-29 18:12:05 - INFO - 200 OK: /about.html (text/html)
+2025-05-29 18:12:06 - INFO - Richiesta da ('127.0.0.1', 54938): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:06 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:06 - INFO - Richiesta da ('127.0.0.1', 54943): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:06 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:08 - INFO - Richiesta da ('127.0.0.1', 54944): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:08 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:09 - INFO - Richiesta da ('127.0.0.1', 54956): GET /favicon.ico
+2025-05-29 18:12:09 - WARNING - 404 Not Found: /favicon.ico
+2025-05-29 18:12:15 - INFO - Richiesta da ('127.0.0.1', 54981): GET /
+2025-05-29 18:12:15 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 18:12:15 - INFO - Richiesta da ('127.0.0.1', 54982): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:15 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:34 - INFO - Richiesta da ('127.0.0.1', 55066): GET /about.html
+2025-05-29 18:12:34 - INFO - 200 OK: /about.html (text/html)
+2025-05-29 18:12:35 - INFO - Richiesta da ('127.0.0.1', 55067): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:35 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:46 - INFO - Richiesta da ('127.0.0.1', 55119): GET /gallery.html
+2025-05-29 18:12:46 - INFO - 200 OK: /gallery.html (text/html)
+2025-05-29 18:12:47 - INFO - Richiesta da ('127.0.0.1', 55120): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:47 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:47 - INFO - Richiesta da ('127.0.0.1', 55125): GET /img/photo1.jpg
+2025-05-29 18:12:47 - WARNING - 404 Not Found: /img/photo1.jpg
+2025-05-29 18:12:47 - INFO - Richiesta da ('127.0.0.1', 55126): GET /img/photo2.jpg
+2025-05-29 18:12:47 - WARNING - 404 Not Found: /img/photo2.jpg
+2025-05-29 18:12:47 - INFO - Richiesta da ('127.0.0.1', 55127): GET /img/photo3.jpg
+2025-05-29 18:12:47 - WARNING - 404 Not Found: /img/photo3.jpg
+2025-05-29 18:12:47 - INFO - Richiesta da ('127.0.0.1', 55128): GET /img/photo4.jpg
+2025-05-29 18:12:47 - WARNING - 404 Not Found: /img/photo4.jpg
+2025-05-29 18:12:53 - INFO - Richiesta da ('127.0.0.1', 55153): GET /gallery.html
+2025-05-29 18:12:53 - INFO - 200 OK: /gallery.html (text/html)
+2025-05-29 18:12:54 - INFO - Richiesta da ('127.0.0.1', 55154): GET /img/server.jpg
+2025-05-29 18:12:54 - WARNING - 404 Not Found: /img/server.jpg
+2025-05-29 18:12:54 - INFO - Richiesta da ('127.0.0.1', 55155): GET /img/layout.jpg
+2025-05-29 18:12:54 - WARNING - 404 Not Found: /img/layout.jpg
+2025-05-29 18:12:54 - INFO - Richiesta da ('127.0.0.1', 55156): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:54 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:12:54 - INFO - Richiesta da ('127.0.0.1', 55157): GET /img/code.jpg
+2025-05-29 18:12:54 - WARNING - 404 Not Found: /img/code.jpg
+2025-05-29 18:13:05 - INFO - Richiesta da ('127.0.0.1', 55208): GET /contact.html
+2025-05-29 18:13:05 - INFO - 200 OK: /contact.html (text/html)
+2025-05-29 18:13:06 - INFO - Richiesta da ('127.0.0.1', 55209): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:13:06 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:13:55 - INFO - Richiesta da ('127.0.0.1', 55434): GET /index.html
+2025-05-29 18:13:55 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 18:13:56 - INFO - Richiesta da ('127.0.0.1', 55435): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:13:56 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:13:58 - INFO - Richiesta da ('127.0.0.1', 55448): GET /gallery.html
+2025-05-29 18:13:58 - INFO - 200 OK: /gallery.html (text/html)
+2025-05-29 18:13:59 - INFO - Richiesta da ('127.0.0.1', 55449): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:13:59 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:13:59 - INFO - Richiesta da ('127.0.0.1', 55450): GET /img/server.jpg
+2025-05-29 18:13:59 - WARNING - 404 Not Found: /img/server.jpg
+2025-05-29 18:13:59 - INFO - Richiesta da ('127.0.0.1', 55451): GET /img/layout.jpg
+2025-05-29 18:13:59 - WARNING - 404 Not Found: /img/layout.jpg
+2025-05-29 18:13:59 - INFO - Richiesta da ('127.0.0.1', 55452): GET /img/code.jpg
+2025-05-29 18:13:59 - WARNING - 404 Not Found: /img/code.jpg
+2025-05-29 18:16:22 - INFO - Richiesta da ('127.0.0.1', 56049): GET /gallery.html
+2025-05-29 18:16:22 - INFO - 200 OK: /gallery.html (text/html)
+2025-05-29 18:16:22 - INFO - Richiesta da ('127.0.0.1', 56050): GET /img/server.png
+2025-05-29 18:16:22 - INFO - Richiesta da ('127.0.0.1', 56051): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:16:22 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:16:37 - INFO - 200 OK: /img/server.png (image/png)
+2025-05-29 18:16:45 - INFO - Richiesta da ('127.0.0.1', 56145): GET /favicon.ico
+2025-05-29 18:16:45 - WARNING - 404 Not Found: /favicon.ico
+2025-05-29 18:18:21 - INFO - Richiesta da ('127.0.0.1', 56530): GET /index.html
+2025-05-29 18:18:21 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 18:18:22 - INFO - Richiesta da ('127.0.0.1', 56531): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:18:22 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:20:20 - INFO - Richiesta da ('127.0.0.1', 57014): GET /index.html
+2025-05-29 18:20:20 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 18:20:21 - INFO - Richiesta da ('127.0.0.1', 57015): GET /about.html
+2025-05-29 18:20:21 - INFO - 200 OK: /about.html (text/html)
+2025-05-29 18:20:21 - INFO - Richiesta da ('127.0.0.1', 57020): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:20:21 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:20:21 - INFO - Richiesta da ('127.0.0.1', 57025): GET /favicon.ico
+2025-05-29 18:20:21 - WARNING - 404 Not Found: /favicon.ico
+2025-05-29 18:20:23 - INFO - Richiesta da ('127.0.0.1', 57030): GET /gallery.html
+2025-05-29 18:20:23 - INFO - 200 OK: /gallery.html (text/html)
+2025-05-29 18:20:23 - INFO - Richiesta da ('127.0.0.1', 57031): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:20:23 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:20:23 - INFO - Richiesta da ('127.0.0.1', 57032): GET /img/server.png
+2025-05-29 18:20:24 - INFO - Richiesta da ('127.0.0.1', 57037): GET /contact.html
+2025-05-29 18:20:24 - INFO - 200 OK: /contact.html (text/html)
+2025-05-29 18:20:24 - INFO - Richiesta da ('127.0.0.1', 57038): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 18:20:24 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
