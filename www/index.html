@@ -1,85 +1,166 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>Home - MyMinimalSite</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <title>Lucio Baiocchi</title>
+    <link rel="icon" type="image/x-icon" href="img/LB.png">
+    <meta name="description" content="Lucio Baiocchi - Portfolio e Contatti">
+    <meta name="keywords" content="Lucio Baiocchi, sviluppo, programmazione, portfolio">
+    <meta name="author" content="Lucio Baiocchi">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
+
+    <!--  
+     -->
+    <style>
+
+    </style>
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">MyMinimalSite</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="gallery.html">Galleria</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contatti</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <header class="bg-light text-center text-primary py-5 mt-5">
-    <div class="container">
-      <h1 class="display-4">Benvenuti su MyMinimalSite</h1>
-      <p class="lead">Server HTTP minimale, design moderno e responsive con Bootstrap.</p>
-      <a class="btn btn-primary btn-lg" href="about.html">Scopri di più</a>
-    </div>
-  </header>
-
-  <section class="container py-5">
-    <h2 class="mb-4">Caratteristiche</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Performance Elevate</h5>
-            <p class="card-text">Risposte in millisecondi grazie a un server socket nativo.</p>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!--logo-->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/LB.png" alt="Logo Lucio Baiocchi" class="logo"/>
+            </a>
+            <!-- Bottone tema -->
+            <button class="navbar-toggler ms-auto me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse md-5" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contacts">Contacts</a></li>
+                </ul>
+                <button class="btn theme-toggle border border-3 px-2 py-1 ms-1">
+                    <i class="bi theme-icon bi-moon-stars-fill"></i>
+                </button>
+            </div>  
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Responsive Design</h5>
-            <p class="card-text">Layout fluido adattabile a tutti i dispositivi.</p>
+    </nav>
+
+    <!-- higher part -->
+    
+    
+    <main class="container-fluid">
+        <div class="row">
+            <div id="higer-main" class="col text-center py-5">
+                <p class="m-0 p-0">Welcome</p>
+            </div>
           </div>
+        <div class="row d-flex justify-content-center mx-3 mt-5">
+            <div id="about" class="col-12 col-md-9 p-4 shadow rounded">
+                <h2>About me</h2>
+                <p>I am a computer science student at the University of Bologna. 
+                    I am passionate about technology and in general I like programming and challenging myself by creating projects alone and in a team.
+                    I like doing sports and working out in the gym. Here on my website you can find the projects I have worked on for the moment. 
+                    Maybe in the future I will also share other content that I will find interesting.
+                </p>
+            </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Facile Estensibilità</h5>
-            <p class="card-text">Struttura modulare per integrazioni rapide con DB, API e altro.</p>
-          </div>
+
+        <div class="row d-flex justify-content-center mx-3 mt-5">
+            <div id="about" class="col-12 col-md-9 p-4 shadow rounded">
+                <h2>Latest projects</h2>
+                <div class="row mb-4">
+                    <div class="col-md-4 p-3">
+                        <div class="card shadow-sm rounded">
+                            <div class="d-md-block d-flex align-items-center">
+                                <img src="./img/projects/giogreens/logo.png" class="card-img-top" alt="IOT Projects">
+                                <div class="card-body">
+                                    <h5 class="card-title">Giogreens</h5>
+                                    <p class="card-text">Web Ecommerce about plants.</p>
+                                    <a href="./projects/giogreens.html" class="btn btn-primary mt-2 stretched-link">See more</a>
+                                    <i class="fab fa-java logo-plan float-end"></i>
+                                    <i class="fa-brands fa-python logo-plan float-end"></i>
+                                    <i class="fa-sharp fa-solid fa-c logo-plan float-end"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-md-4 p-3">
+                        <div class="card shadow-sm rounded">
+                            <div class="d-md-block d-flex align-items-center">
+                                <img src="./img/projects/Logo_IOT.png" class="card-img-top" alt="IOT Projects">
+                                <div class="card-body">
+                                    <h5 class="card-title">IOT projects</h5>
+                                    <p class="card-text">Collection of university iot projects</p>
+                                    <a href="./projects/iot_projects.html" class="btn btn-primary mt-2 stretched-link">See more</a>
+                                    <i class="fab fa-java logo-plan float-end"></i>
+                                    <i class="fa-brands fa-python logo-plan float-end"></i>
+                                    <i class="fa-sharp fa-solid fa-c logo-plan float-end"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-md-4 p-3">
+                        <div class="card shadow-sm">
+                            <div class="d-md-block d-flex align-items-center">
+                                <img src="./img/projects/mydiet/logo_MyDiet.jpeg" class="card-img-top" alt="Diet Management System">
+                                <div class="card-body">
+                                    <h5 class="card-title">My diet</h5>
+                                    <p class="card-text">A Java app for diet managment.</p>
+                                    <a href="./projects/mydiet.html" class="btn btn-primary mt-2 stretched-link">See more</a>
+                                    <i class="fab fa-java logo-plan float-end"></i>
+                                    <i class="fas fa-database logo-plan float-end" title="MySQL"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+            
+        <div class="row d-flex justify-content-center mx-3 mt-5">
+            <section id="contacts" class="col-12 col-md-9 p-4 shadow rounded">
+                <div class="d-flex justify-content-start gap-4"> 
+                </div>
+                <h3>Latest version of my CV</h3>
+                <div class="d-flex justify-content-around gap-4"> 
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vSM3YzO99Fm9XR2XBXlof0dbXpEuaTnFbIxfm7JU0S1Iyz3beiaNeLJtKZbuHk7qjKUOzkmLUlXfq-U/pub" target="_blank" class="text-decoration-none">
+                        <i class="fa-solid fa-file h3"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
 
-  <section class="bg-light py-5">
-    <div class="container">
-      <h2 class="mb-4 text-center">Ultimi Aggiornamenti</h2>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item"><strong>01/05/2025:</strong> Integrazione MySQL per dati dinamici.</li>
-        <li class="list-group-item"><strong>15/04/2025:</strong> Animazioni e modal Bootstrap.</li>
-        <li class="list-group-item"><strong>10/03/2025:</strong> Supporto completo a MIME types.</li>
-      </ul>
-    </div>
-  </section>
+        <div class="row d-flex justify-content-center mx-3 mt-5">
+            <section id="contacts" class="col-12 col-md-9 p-4 shadow rounded">
+                <h3>Contacts</h3>
+                <div class="d-flex justify-content-center gap-4"> 
+                    <a href="mailto:luciobaiocchi1@gmail.com" class="text-decoration-none">
+                        <i class="bi bi-envelope h2"></i> 
+                    </a>
+                    <a href="https://github.com/luciobaiocchi" target="_blank" class="text-decoration-none">
+                        <i class="bi bi-github h2"></i> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/lucio-baiocchi-39b420243/" target="_blank" class="text-decoration-none">
+                        <i class="bi bi-linkedin h2"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
 
-  <footer class="bg-primary text-white text-center py-3">
-    <div class="container">
-      <p class="mb-1">&copy; 2025 MyMinimalSite</p>
-      <small><a href="privacy.html" class="text-white text-decoration-none">Privacy Policy</a> | <a href="terms.html" class="text-white text-decoration-none">Termini del servizio</a></small>
-    </div>
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        
+    <!-- Footer -->
+    <footer class="text-center py-3 mt-5">
+        <p>&copy; 2025 Lucio Baiocchi | <a href="mailto:luciobaiocchi1@gmail.com">Contact me</a></p>
+    </footer>
+    
+
+    <script src="./javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

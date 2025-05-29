@@ -273,3 +273,404 @@
 2025-05-29 17:11:05 - INFO - 200 OK: /index.html (text/html)
 2025-05-29 17:11:06 - INFO - Richiesta da ('127.0.0.1', 65417): GET /.well-known/appspecific/com.chrome.devtools.json
 2025-05-29 17:11:06 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 17:34:36 - INFO - Server avviato su 127.0.0.1:8080
+2025-05-29 17:34:39 - INFO - Richiesta da ('127.0.0.1', 51218): GET /index.html
+2025-05-29 17:34:39 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:35:03 - INFO - Richiesta da ('127.0.0.1', 51219): GET /
+2025-05-29 17:35:03 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:35:12 - INFO - Richiesta da ('127.0.0.1', 51274): GET /about.html
+2025-05-29 17:35:12 - INFO - 200 OK: /about.html (text/html)
+2025-05-29 17:35:14 - INFO - Richiesta da ('127.0.0.1', 51280): GET /gallery.html
+2025-05-29 17:35:14 - INFO - 200 OK: /gallery.html (text/html)
+2025-05-29 17:35:14 - INFO - Richiesta da ('127.0.0.1', 51281): GET /img/photo1.jpg
+2025-05-29 17:35:14 - WARNING - 404 Not Found: /img/photo1.jpg
+2025-05-29 17:35:14 - INFO - Richiesta da ('127.0.0.1', 51282): GET /img/photo2.jpg
+2025-05-29 17:35:14 - WARNING - 404 Not Found: /img/photo2.jpg
+2025-05-29 17:35:14 - INFO - Richiesta da ('127.0.0.1', 51283): GET /img/photo3.jpg
+2025-05-29 17:35:14 - WARNING - 404 Not Found: /img/photo3.jpg
+2025-05-29 17:35:14 - INFO - Richiesta da ('127.0.0.1', 51284): GET /img/photo4.jpg
+2025-05-29 17:35:14 - WARNING - 404 Not Found: /img/photo4.jpg
+2025-05-29 17:35:15 - INFO - Richiesta da ('127.0.0.1', 51285): GET /contact.html
+2025-05-29 17:35:15 - INFO - 200 OK: /contact.html (text/html)
+2025-05-29 17:36:14 - INFO - Richiesta da ('127.0.0.1', 51286): GET /contact.html
+2025-05-29 17:36:14 - INFO - 200 OK: /contact.html (text/html)
+2025-05-29 17:36:16 - INFO - Richiesta da ('127.0.0.1', 51318): GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 17:36:16 - WARNING - 404 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 17:36:38 - INFO - Richiesta da ('127.0.0.1', 51381): GET /index.html
+2025-05-29 17:36:38 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:36:50 - INFO - Richiesta da ('127.0.0.1', 51382): GET /index.html
+2025-05-29 17:36:50 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:36:51 - INFO - Richiesta da ('127.0.0.1', 51383): GET /index.html
+2025-05-29 17:36:51 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:36:51 - INFO - Richiesta da ('127.0.0.1', 51384): GET /favicon.ico
+2025-05-29 17:36:51 - WARNING - 404 Not Found: /favicon.ico
+2025-05-29 17:36:52 - INFO - Richiesta da ('127.0.0.1', 51385): GET /index.html
+2025-05-29 17:36:52 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:36:52 - INFO - Richiesta da ('127.0.0.1', 51386): GET /favicon.ico
+2025-05-29 17:36:52 - WARNING - 404 Not Found: /favicon.ico
+2025-05-29 17:36:53 - INFO - Richiesta da ('127.0.0.1', 51387): GET /index.html
+2025-05-29 17:36:53 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:36:54 - INFO - Richiesta da ('127.0.0.1', 51388): GET /index.html
+2025-05-29 17:36:54 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:36:54 - INFO - Richiesta da ('127.0.0.1', 51389): GET /index.html
+2025-05-29 17:36:54 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:36:54 - INFO - Richiesta da ('127.0.0.1', 51390): GET /index.html
+2025-05-29 17:36:54 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:36:55 - INFO - Richiesta da ('127.0.0.1', 51391): GET /about.html
+2025-05-29 17:36:55 - INFO - 200 OK: /about.html (text/html)
+2025-05-29 17:36:56 - INFO - Richiesta da ('127.0.0.1', 51392): GET /index.html
+2025-05-29 17:36:56 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:36:57 - INFO - Richiesta da ('127.0.0.1', 51393): GET /contact.html
+2025-05-29 17:36:57 - INFO - 200 OK: /contact.html (text/html)
+2025-05-29 17:36:58 - INFO - Richiesta da ('127.0.0.1', 51394): GET /gallery.html
+2025-05-29 17:36:58 - INFO - 200 OK: /gallery.html (text/html)
+2025-05-29 17:36:58 - INFO - Richiesta da ('127.0.0.1', 51395): GET /img/photo1.jpg
+2025-05-29 17:36:58 - WARNING - 404 Not Found: /img/photo1.jpg
+2025-05-29 17:36:58 - INFO - Richiesta da ('127.0.0.1', 51396): GET /img/photo2.jpg
+2025-05-29 17:36:58 - INFO - Richiesta da ('127.0.0.1', 51397): GET /img/photo3.jpg
+2025-05-29 17:36:58 - INFO - Richiesta da ('127.0.0.1', 51398): GET /img/photo4.jpg
+2025-05-29 17:36:58 - WARNING - 404 Not Found: /img/photo2.jpg
+2025-05-29 17:36:58 - WARNING - 404 Not Found: /img/photo3.jpg
+2025-05-29 17:36:58 - WARNING - 404 Not Found: /img/photo4.jpg
+2025-05-29 17:36:58 - INFO - Richiesta da ('127.0.0.1', 51399): GET /about.html
+2025-05-29 17:36:58 - INFO - 200 OK: /about.html (text/html)
+2025-05-29 17:36:59 - INFO - Richiesta da ('127.0.0.1', 51400): GET /about.html
+2025-05-29 17:36:59 - INFO - 200 OK: /about.html (text/html)
+2025-05-29 17:36:59 - INFO - Richiesta da ('127.0.0.1', 51401): GET /favicon.ico
+2025-05-29 17:36:59 - WARNING - 404 Not Found: /favicon.ico
+2025-05-29 17:37:14 - INFO - Richiesta da ('127.0.0.1', 51408): GET /
+2025-05-29 17:37:14 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:37:16 - INFO - Richiesta da ('127.0.0.1', 51409): GET /about.html
+2025-05-29 17:37:16 - INFO - 200 OK: /about.html (text/html)
+2025-05-29 17:37:17 - INFO - Richiesta da ('127.0.0.1', 51410): GET /gallery.html
+2025-05-29 17:37:17 - INFO - 200 OK: /gallery.html (text/html)
+2025-05-29 17:37:17 - INFO - Richiesta da ('127.0.0.1', 51411): GET /img/photo1.jpg
+2025-05-29 17:37:17 - WARNING - 404 Not Found: /img/photo1.jpg
+2025-05-29 17:37:17 - INFO - Richiesta da ('127.0.0.1', 51413): GET /img/photo3.jpg
+2025-05-29 17:37:17 - INFO - Richiesta da ('127.0.0.1', 51412): GET /img/photo2.jpg
+2025-05-29 17:37:17 - WARNING - 404 Not Found: /img/photo2.jpg
+2025-05-29 17:37:17 - WARNING - 404 Not Found: /img/photo3.jpg
+2025-05-29 17:37:17 - INFO - Richiesta da ('127.0.0.1', 51414): GET /img/photo4.jpg
+2025-05-29 17:37:17 - WARNING - 404 Not Found: /img/photo4.jpg
+2025-05-29 17:37:17 - INFO - Richiesta da ('127.0.0.1', 51415): GET /contact.html
+2025-05-29 17:37:17 - INFO - 200 OK: /contact.html (text/html)
+2025-05-29 17:37:18 - INFO - Richiesta da ('127.0.0.1', 51416): GET /index.html
+2025-05-29 17:37:18 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:37:22 - INFO - Richiesta da ('127.0.0.1', 51417): GET /about.html
+2025-05-29 17:37:22 - INFO - 200 OK: /about.html (text/html)
+2025-05-29 17:37:24 - INFO - Richiesta da ('127.0.0.1', 51418): GET /about.html
+2025-05-29 17:37:24 - INFO - 200 OK: /about.html (text/html)
+2025-05-29 17:37:32 - INFO - Richiesta da ('127.0.0.1', 51419): GET /index.html
+2025-05-29 17:37:32 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:31 - INFO - Richiesta da ('127.0.0.1', 51421): GET /index.html
+2025-05-29 17:38:31 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:31 - INFO - Richiesta da ('127.0.0.1', 51423): GET /css/style.css
+2025-05-29 17:38:31 - INFO - Richiesta da ('127.0.0.1', 51425): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:31 - INFO - Richiesta da ('127.0.0.1', 51424): GET /img/LB.png
+2025-05-29 17:38:31 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:31 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:31 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:31 - INFO - Richiesta da ('127.0.0.1', 51426): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:31 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:31 - INFO - Richiesta da ('127.0.0.1', 51428): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:31 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:31 - INFO - Richiesta da ('127.0.0.1', 51429): GET /javascript/script.js
+2025-05-29 17:38:31 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51433): GET /index.html
+2025-05-29 17:38:34 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51434): GET /css/style.css
+2025-05-29 17:38:34 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51436): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51435): GET /img/LB.png
+2025-05-29 17:38:34 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51437): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:34 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:34 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51438): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51439): GET /javascript/script.js
+2025-05-29 17:38:34 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:34 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51441): GET /img/LB.png
+2025-05-29 17:38:34 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51444): GET /index.html
+2025-05-29 17:38:34 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51445): GET /css/style.css
+2025-05-29 17:38:34 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51446): GET /img/LB.png
+2025-05-29 17:38:34 - INFO - Richiesta da ('127.0.0.1', 51447): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:34 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:34 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51448): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51450): GET /javascript/script.js
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51449): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:35 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:35 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:35 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51451): GET /projects.html
+2025-05-29 17:38:35 - INFO - 200 OK: /projects.html (text/html)
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51452): GET /css/style.css
+2025-05-29 17:38:35 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51453): GET /img/LB.png
+2025-05-29 17:38:35 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51456): GET /img/projects/Logo_Gym-Life.jpeg
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51455): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51454): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:35 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51457): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:35 - INFO - 200 OK: /img/projects/Logo_Gym-Life.jpeg (image/jpeg)
+2025-05-29 17:38:35 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51458): GET /javascript/script.js
+2025-05-29 17:38:35 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:35 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51459): GET /img/projects/Logo_Chat_python.png
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51460): GET /img/projects/logo_DVRS.png
+2025-05-29 17:38:35 - INFO - Richiesta da ('127.0.0.1', 51461): GET /img/projects/Logo-algo_elab.png
+2025-05-29 17:38:35 - INFO - 200 OK: /img/projects/logo_DVRS.png (image/png)
+2025-05-29 17:38:35 - INFO - 200 OK: /img/projects/Logo-algo_elab.png (image/png)
+2025-05-29 17:38:35 - INFO - 200 OK: /img/projects/Logo_Chat_python.png (image/png)
+2025-05-29 17:38:36 - INFO - Richiesta da ('127.0.0.1', 51462): GET /index.html
+2025-05-29 17:38:36 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:36 - INFO - Richiesta da ('127.0.0.1', 51463): GET /css/style.css
+2025-05-29 17:38:36 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:36 - INFO - Richiesta da ('127.0.0.1', 51464): GET /img/LB.png
+2025-05-29 17:38:36 - INFO - Richiesta da ('127.0.0.1', 51465): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:36 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:36 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:36 - INFO - Richiesta da ('127.0.0.1', 51466): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:36 - INFO - Richiesta da ('127.0.0.1', 51467): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:36 - INFO - Richiesta da ('127.0.0.1', 51468): GET /javascript/script.js
+2025-05-29 17:38:36 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:36 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:36 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:37 - INFO - Richiesta da ('127.0.0.1', 51469): GET /index.html
+2025-05-29 17:38:37 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:37 - INFO - Richiesta da ('127.0.0.1', 51470): GET /css/style.css
+2025-05-29 17:38:37 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:37 - INFO - Richiesta da ('127.0.0.1', 51471): GET /img/LB.png
+2025-05-29 17:38:37 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:37 - INFO - Richiesta da ('127.0.0.1', 51473): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:37 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:37 - INFO - Richiesta da ('127.0.0.1', 51474): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:37 - INFO - Richiesta da ('127.0.0.1', 51475): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:37 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:37 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:37 - INFO - Richiesta da ('127.0.0.1', 51476): GET /javascript/script.js
+2025-05-29 17:38:37 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:38 - INFO - Richiesta da ('127.0.0.1', 51477): GET /index.html
+2025-05-29 17:38:38 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:38 - INFO - Richiesta da ('127.0.0.1', 51478): GET /css/style.css
+2025-05-29 17:38:38 - INFO - Richiesta da ('127.0.0.1', 51479): GET /img/LB.png
+2025-05-29 17:38:38 - INFO - Richiesta da ('127.0.0.1', 51480): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:38 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:38 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:38 - INFO - Richiesta da ('127.0.0.1', 51481): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:38 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:38 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:38 - INFO - Richiesta da ('127.0.0.1', 51482): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:38 - INFO - Richiesta da ('127.0.0.1', 51483): GET /javascript/script.js
+2025-05-29 17:38:38 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:38 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:39 - INFO - Richiesta da ('127.0.0.1', 51484): GET /index.html
+2025-05-29 17:38:39 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:39 - INFO - Richiesta da ('127.0.0.1', 51485): GET /css/style.css
+2025-05-29 17:38:39 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:39 - INFO - Richiesta da ('127.0.0.1', 51486): GET /img/LB.png
+2025-05-29 17:38:39 - INFO - Richiesta da ('127.0.0.1', 51487): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:39 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:39 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:39 - INFO - Richiesta da ('127.0.0.1', 51488): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:39 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:39 - INFO - Richiesta da ('127.0.0.1', 51489): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:39 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:39 - INFO - Richiesta da ('127.0.0.1', 51490): GET /javascript/script.js
+2025-05-29 17:38:39 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:40 - INFO - Richiesta da ('127.0.0.1', 51491): GET /index.html
+2025-05-29 17:38:40 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:40 - INFO - Richiesta da ('127.0.0.1', 51492): GET /css/style.css
+2025-05-29 17:38:40 - INFO - Richiesta da ('127.0.0.1', 51493): GET /img/LB.png
+2025-05-29 17:38:40 - INFO - Richiesta da ('127.0.0.1', 51494): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:40 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:40 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:40 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:40 - INFO - Richiesta da ('127.0.0.1', 51495): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:40 - INFO - Richiesta da ('127.0.0.1', 51496): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:40 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:40 - INFO - Richiesta da ('127.0.0.1', 51497): GET /javascript/script.js
+2025-05-29 17:38:40 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:40 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:41 - INFO - Richiesta da ('127.0.0.1', 51498): GET /projects.html
+2025-05-29 17:38:41 - INFO - 200 OK: /projects.html (text/html)
+2025-05-29 17:38:41 - INFO - Richiesta da ('127.0.0.1', 51499): GET /css/style.css
+2025-05-29 17:38:41 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:41 - INFO - Richiesta da ('127.0.0.1', 51500): GET /img/LB.png
+2025-05-29 17:38:41 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:41 - INFO - Richiesta da ('127.0.0.1', 51501): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:41 - INFO - Richiesta da ('127.0.0.1', 51502): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:41 - INFO - Richiesta da ('127.0.0.1', 51503): GET /img/projects/Logo_Gym-Life.jpeg
+2025-05-29 17:38:41 - INFO - Richiesta da ('127.0.0.1', 51504): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:41 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:41 - INFO - Richiesta da ('127.0.0.1', 51505): GET /javascript/script.js
+2025-05-29 17:38:41 - INFO - Richiesta da ('127.0.0.1', 51506): GET /img/projects/Logo_Chat_python.png
+2025-05-29 17:38:41 - INFO - Richiesta da ('127.0.0.1', 51508): GET /img/projects/Logo-algo_elab.png
+2025-05-29 17:38:41 - INFO - Richiesta da ('127.0.0.1', 51507): GET /img/projects/logo_DVRS.png
+2025-05-29 17:38:41 - INFO - 200 OK: /img/projects/Logo_Chat_python.png (image/png)
+2025-05-29 17:38:41 - INFO - 200 OK: /img/projects/Logo_Gym-Life.jpeg (image/jpeg)
+2025-05-29 17:38:41 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:41 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:41 - INFO - 200 OK: /img/projects/Logo-algo_elab.png (image/png)
+2025-05-29 17:38:41 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:41 - INFO - 200 OK: /img/projects/logo_DVRS.png (image/png)
+2025-05-29 17:38:42 - INFO - Richiesta da ('127.0.0.1', 51509): GET /index.html
+2025-05-29 17:38:42 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:42 - INFO - Richiesta da ('127.0.0.1', 51510): GET /css/style.css
+2025-05-29 17:38:42 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:42 - INFO - Richiesta da ('127.0.0.1', 51511): GET /img/LB.png
+2025-05-29 17:38:42 - INFO - Richiesta da ('127.0.0.1', 51512): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:42 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:42 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:42 - INFO - Richiesta da ('127.0.0.1', 51513): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:42 - INFO - Richiesta da ('127.0.0.1', 51514): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:42 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:42 - INFO - Richiesta da ('127.0.0.1', 51515): GET /javascript/script.js
+2025-05-29 17:38:42 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:42 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:43 - INFO - Richiesta da ('127.0.0.1', 51516): GET /index.html
+2025-05-29 17:38:43 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:43 - INFO - Richiesta da ('127.0.0.1', 51517): GET /css/style.css
+2025-05-29 17:38:43 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:43 - INFO - Richiesta da ('127.0.0.1', 51518): GET /img/LB.png
+2025-05-29 17:38:43 - INFO - Richiesta da ('127.0.0.1', 51519): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:43 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:43 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:43 - INFO - Richiesta da ('127.0.0.1', 51521): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:43 - INFO - Richiesta da ('127.0.0.1', 51520): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:43 - INFO - Richiesta da ('127.0.0.1', 51522): GET /javascript/script.js
+2025-05-29 17:38:43 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:43 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:43 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:44 - INFO - Richiesta da ('127.0.0.1', 51523): GET /projects.html
+2025-05-29 17:38:44 - INFO - 200 OK: /projects.html (text/html)
+2025-05-29 17:38:44 - INFO - Richiesta da ('127.0.0.1', 51524): GET /css/style.css
+2025-05-29 17:38:44 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:44 - INFO - Richiesta da ('127.0.0.1', 51525): GET /img/LB.png
+2025-05-29 17:38:44 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:44 - INFO - Richiesta da ('127.0.0.1', 51526): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:44 - INFO - Richiesta da ('127.0.0.1', 51527): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:44 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:44 - INFO - Richiesta da ('127.0.0.1', 51528): GET /img/projects/Logo_Gym-Life.jpeg
+2025-05-29 17:38:44 - INFO - Richiesta da ('127.0.0.1', 51529): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:44 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:44 - INFO - Richiesta da ('127.0.0.1', 51530): GET /javascript/script.js
+2025-05-29 17:38:44 - INFO - Richiesta da ('127.0.0.1', 51531): GET /img/projects/Logo_Chat_python.png
+2025-05-29 17:38:44 - INFO - 200 OK: /img/projects/Logo_Gym-Life.jpeg (image/jpeg)
+2025-05-29 17:38:44 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:44 - INFO - Richiesta da ('127.0.0.1', 51532): GET /img/projects/logo_DVRS.png
+2025-05-29 17:38:44 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:44 - INFO - Richiesta da ('127.0.0.1', 51533): GET /img/projects/Logo-algo_elab.png
+2025-05-29 17:38:44 - INFO - 200 OK: /img/projects/Logo_Chat_python.png (image/png)
+2025-05-29 17:38:44 - INFO - 200 OK: /img/projects/logo_DVRS.png (image/png)
+2025-05-29 17:38:44 - INFO - 200 OK: /img/projects/Logo-algo_elab.png (image/png)
+2025-05-29 17:38:45 - INFO - Richiesta da ('127.0.0.1', 51534): GET /projects/mydiet.html
+2025-05-29 17:38:45 - INFO - 200 OK: /projects/mydiet.html (text/html)
+2025-05-29 17:38:45 - INFO - Richiesta da ('127.0.0.1', 51535): GET /css/style.css
+2025-05-29 17:38:45 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:45 - INFO - Richiesta da ('127.0.0.1', 51536): GET /img/LB.png
+2025-05-29 17:38:45 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:45 - INFO - Richiesta da ('127.0.0.1', 51537): GET /img/projects/mydiet/img/login.png
+2025-05-29 17:38:45 - INFO - Richiesta da ('127.0.0.1', 51538): GET /img/projects/mydiet/img/modifica%20dieta.png
+2025-05-29 17:38:45 - INFO - Richiesta da ('127.0.0.1', 51540): GET /javascript/script.js
+2025-05-29 17:38:45 - INFO - Richiesta da ('127.0.0.1', 51539): GET /img/projects/mydiet/img/visualizzazione%20nutrizionisti.png
+2025-05-29 17:38:45 - WARNING - 404 Not Found: /img/projects/mydiet/img/modifica%20dieta.png
+2025-05-29 17:38:45 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:45 - WARNING - 404 Not Found: /img/projects/mydiet/img/visualizzazione%20nutrizionisti.png
+2025-05-29 17:38:45 - INFO - 200 OK: /img/projects/mydiet/img/login.png (image/png)
+2025-05-29 17:38:45 - INFO - Richiesta da ('127.0.0.1', 51541): GET /projects/img/LB.png
+2025-05-29 17:38:45 - WARNING - 404 Not Found: /projects/img/LB.png
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51542): GET /projects/giogreens.html
+2025-05-29 17:38:47 - INFO - 200 OK: /projects/giogreens.html (text/html)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51543): GET /css/style.css
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51544): GET /img/LB.png
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51545): GET /img/projects/giogreens/1.png
+2025-05-29 17:38:47 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:47 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51546): GET /img/projects/giogreens/2.png
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/2.png (image/png)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51547): GET /img/projects/giogreens/3.png
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51548): GET /img/projects/giogreens/5.png
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51549): GET /javascript/script.js
+2025-05-29 17:38:47 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51550): GET /img/projects/giogreens/6.png
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/1.png (image/png)
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/3.png (image/png)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51551): GET /img/projects/giogreens/7.png
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/5.png (image/png)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51552): GET /img/projects/giogreens/8.png
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51553): GET /img/projects/giogreens/9.png
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/6.png (image/png)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51554): GET /img/projects/giogreens/10.png
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/9.png (image/png)
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/7.png (image/png)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51555): GET /img/projects/giogreens/11.png
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/8.png (image/png)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51556): GET /img/projects/giogreens/12.png
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/10.png (image/png)
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/12.png (image/png)
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/11.png (image/png)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51557): GET /img/projects/giogreens/13.png
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51558): GET /img/projects/giogreens/14.png
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/13.png (image/png)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51559): GET /img/projects/giogreens/15.png
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/14.png (image/png)
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51560): GET /img/projects/giogreens/16.png
+2025-05-29 17:38:47 - INFO - Richiesta da ('127.0.0.1', 51561): GET /img/projects/giogreens/17.png
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/15.png (image/png)
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/16.png (image/png)
+2025-05-29 17:38:47 - INFO - 200 OK: /img/projects/giogreens/17.png (image/png)
+2025-05-29 17:38:57 - INFO - Richiesta da ('127.0.0.1', 51563): GET /index.html
+2025-05-29 17:38:57 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:57 - INFO - Richiesta da ('127.0.0.1', 51564): GET /css/style.css
+2025-05-29 17:38:57 - INFO - Richiesta da ('127.0.0.1', 51566): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:57 - INFO - Richiesta da ('127.0.0.1', 51565): GET /img/LB.png
+2025-05-29 17:38:57 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:57 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:57 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:57 - INFO - Richiesta da ('127.0.0.1', 51567): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:57 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:57 - INFO - Richiesta da ('127.0.0.1', 51568): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:57 - INFO - Richiesta da ('127.0.0.1', 51569): GET /javascript/script.js
+2025-05-29 17:38:57 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:57 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:57 - INFO - Richiesta da ('127.0.0.1', 51570): GET /img/LB.png
+2025-05-29 17:38:57 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51571): GET /index.html
+2025-05-29 17:38:58 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51572): GET /css/style.css
+2025-05-29 17:38:58 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51573): GET /img/LB.png
+2025-05-29 17:38:58 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51574): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:58 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51575): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51576): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51577): GET /javascript/script.js
+2025-05-29 17:38:58 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:58 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:58 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51578): GET /img/LB.png
+2025-05-29 17:38:58 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51579): GET /index.html
+2025-05-29 17:38:58 - INFO - 200 OK: /index.html (text/html)
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51580): GET /css/style.css
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51582): GET /img/projects/giogreens/logo.png
+2025-05-29 17:38:58 - INFO - 200 OK: /css/style.css (text/css)
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51581): GET /img/LB.png
+2025-05-29 17:38:58 - INFO - 200 OK: /img/LB.png (image/png)
+2025-05-29 17:38:58 - INFO - 200 OK: /img/projects/giogreens/logo.png (image/png)
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51583): GET /img/projects/Logo_IOT.png
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51584): GET /img/projects/mydiet/logo_MyDiet.jpeg
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51585): GET /javascript/script.js
+2025-05-29 17:38:58 - INFO - 200 OK: /img/projects/mydiet/logo_MyDiet.jpeg (image/jpeg)
+2025-05-29 17:38:58 - INFO - 200 OK: /img/projects/Logo_IOT.png (image/png)
+2025-05-29 17:38:58 - INFO - 200 OK: /javascript/script.js (text/javascript)
+2025-05-29 17:38:58 - INFO - Richiesta da ('127.0.0.1', 51586): GET /img/LB.png
+2025-05-29 17:38:58 - INFO - 200 OK: /img/LB.png (image/png)
