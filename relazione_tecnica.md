@@ -3,7 +3,7 @@
 ## 1. Introduzione
 L’obiettivo del progetto è stato realizzare un server HTTP minimale in Python che fornisse contenuti statici ottimizzati, con gestione avanzata dei MIME types, logging delle richieste, un’interfaccia responsiva e animazioni CSS leggere.
 
-## 2. Scelte progettuali
+## 2. Specifiche del progetto
 - **Linguaggio**: Python 3, per semplicità e rapidità di prototipazione.
 - **Sockets**: utilizzo di `socket.socket` per la comunicazione TCP a basso livello.
 - **Multithreading**: thread daemon per gestire richieste concorrenti senza blocchi.
