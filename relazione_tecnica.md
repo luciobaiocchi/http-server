@@ -35,21 +35,25 @@ Queste informazioni sono utili per debugging, metriche di utilizzo e monitoraggi
 - Validazione HTML/CSS con W3C Validator.
 - Test di concorrenza con `ab` (ApacheBench), 100 richieste concorrenti: latenza media <50ms su ambiente locale.
 
-## 7. Performance e ottimizzazioni
-- **Keep-Alive**: in futuro, abilitare `Connection: keep-alive` per ridurre overhead TCP.
-- **Caching**: aggiungere header `Cache-Control` per risorse statiche.
-- **Minificazione**: ridurre dimensione CSS/JS.
-
-## 8. Sicurezza e limitazioni
+## 7. Sicurezza e limitazioni
 - **Directory traversal**: sanitizzazione di `path` con `lstrip('/')` e `os.path.isfile`.
 - **Metodi supportati**: solo GET; POST e altri metodi ignorati.
 - **SSL/TLS**: non implementato; consigliato `stunnel` o `nginx` in front-end per HTTPS.
 
-## 9. Possibili estensioni future
-- Gestione POST e API REST.
-- Autenticazione di base (HTTP Basic Auth).
-- Monitoraggio in tempo reale (WebSocket).
-- Interfaccia di amministrazione per log.
+## 8. Immagini
+Di seguito alcune immagini che mostrano sia la parte server e il frontend del sito.
 
-## 10. Conclusioni
+Server
+![[./img/Screenshot 2025-05-30 at 14.23.42.png]]
+Home
+![[./img/Screenshot 2025-05-30 at 14.21.38.png]]
+Contatti
+![[./img/Screenshot 2025-05-30 at 14.21.58.png]]
+Galleria
+![[./img/Screenshot 2025-05-30 at 14.21.45.png]]
+
+
+## 8. Conclusioni
 Il server soddisfa i requisiti di base e le estensioni richieste. Grazie alla struttura modulare, è immediato aggiungere nuove funzionalità (caching, HTTPS, API).
+
+
